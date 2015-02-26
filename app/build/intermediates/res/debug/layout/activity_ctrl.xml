@@ -1,0 +1,221 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343"
+    android:orientation="vertical" >
+	
+  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+    <TextView
+        android:id="@+id/Name_msg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.11"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:text="  Name Message..." />
+
+    <Button
+        android:id="@+id/detail_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:text="@string/set"
+        android:textColor="#FFFFFF"
+        android:onClick="press_detail" />
+   
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/status_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:text="  Status Message..."  />
+	
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logopart" />
+    
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" 
+        android:scaleType="fitXY"
+        android:layout_marginLeft="30dp" >
+		<ImageView
+        	android:id="@+id/imageMidleft"
+        	android:layout_width="57dp"
+        	android:layout_height="145dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/midleft" />
+        
+		<ImageView
+        	android:id="@+id/imageMode"
+        	android:layout_width="42dp"
+        	android:layout_height="145dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/coolmd" />
+		
+		<LinearLayout
+        android:layout_width="145dp"
+        android:layout_height="145dp" 
+        android:scaleType="fitXY" 
+        android:orientation="vertical" >
+		
+			<LinearLayout
+        	android:layout_width="145dp"
+        	android:layout_height="70dp" 
+        	android:scaleType="fitXY" >
+		    
+			    <ImageView
+        		android:id="@+id/imageTp_up_L"
+        		android:layout_width="20dp"
+        		android:layout_height="75dp"
+        		android:scaleType="fitXY"
+        		android:src="@drawable/tp_up_lft" />
+			    
+			    <ImageView
+        		android:id="@+id/imageChar1"
+        		android:layout_width="39dp"
+        		android:layout_height="75dp"
+        		android:scaleType="fitXY"
+        		android:src="@drawable/char_2" />
+			    
+			    <ImageView
+        		android:id="@+id/imageChar2"
+        		android:layout_width="39dp"
+        		android:layout_height="75dp"
+        		android:scaleType="fitXY"
+        		android:src="@drawable/char_5" />
+			    
+			    <ImageView
+        		android:id="@+id/imageCompC"
+        		android:layout_width="48dp"
+        		android:layout_height="75dp"
+        		android:scaleType="fitXY"
+        		android:src="@drawable/compc" />
+			    
+			</LinearLayout>
+		    
+			<LinearLayout
+        	android:layout_width="145dp"
+        	android:layout_height="75dp" 
+        	android:scaleType="fitXY" >
+			
+			<ImageView
+        		android:id="@+id/imageFan"
+        		android:layout_width="107dp"
+        		android:layout_height="75dp"
+        		android:scaleType="fitXY"
+        		android:src="@drawable/fanautohigh" />
+			
+			<ImageView
+        		android:id="@+id/imageEcoTrb"
+        		android:layout_width="39dp"
+        		android:layout_height="75dp"
+        		android:scaleType="fitXY"
+        		android:src="@drawable/economd" />
+			
+			</LinearLayout>
+		 </LinearLayout>
+		
+		<ImageView
+        	android:id="@+id/imageMidright"
+        	android:layout_width="56dp"
+        	android:layout_height="145dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/midright" />
+		
+    </LinearLayout>    
+        
+    <ImageView
+        android:id="@+id/imageIR"
+        android:layout_width="300dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/irpart" />
+    
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" 
+        android:scaleType="fitXY"
+        android:layout_marginLeft="30dp" >
+		<ImageView
+        	android:id="@+id/imageView3"
+        	android:layout_width="25dp"
+        	android:layout_height="50dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/leftpart" />
+		
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/botton_mode" 
+            android:onClick="press_md" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/botton_fan"
+            android:onClick="press_fn" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/botton_down"
+            android:onClick="press_dn" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/botton_up"
+            android:onClick="press_up" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/botton_power"
+            android:onClick="press_pw" />
+        
+        <ImageView
+        	android:id="@+id/imageView4"
+        	android:layout_width="25dp"
+        	android:layout_height="50dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/rightpart" />
+        
+    </LinearLayout>
+	
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/lowpart" />
+    
+</LinearLayout>
+<!-- From: file:/D:/GoogleDrive/_APK/LCDW4WiFi/app/src/main/res/layout/activity_ctrl.xml -->

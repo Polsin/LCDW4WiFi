@@ -1,0 +1,211 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ListActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="My IP address"
+            android:id="@+id/myIPtxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="myIP"
+            android:id="@+id/IPtxt"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="0.06" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <Button
+        android:id="@+id/IP1_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.11"
+        android:text="@string/IP1_Txtbutton"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_ip1" />
+
+        <Button
+        android:id="@+id/Det1_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:text="@string/set"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_det1" />
+    
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/IP2_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.11"
+        android:text="@string/IP2_Txtbutton"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_ip2" />
+
+     <Button
+        android:id="@+id/Det2_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:text="@string/set"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_det2" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/IP3_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.11"
+        android:text="@string/IP3_Txtbutton"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_ip3" />
+
+     <Button
+        android:id="@+id/Det3_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:text="@string/set"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_det3" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/IP4_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.11"
+        android:text="@string/IP4_Txtbutton"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_ip4" />
+
+     <Button
+        android:id="@+id/Det4_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:text="@string/set"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_det4" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+    <Button
+        android:id="@+id/IP5_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.11"
+        android:text="@string/IP5_Txtbutton"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_ip5" />
+
+     <Button
+        android:id="@+id/Det5_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.62"
+        android:text="@string/set"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/botton_list"
+        android:onClick="press_det5" />
+    
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+     </LinearLayout>
+
+     <Button
+             android:id="@+id/Search_button"
+             android:layout_width="114dp"
+             android:layout_height="wrap_content"
+             android:onClick="press_search"
+             android:text="Search"
+             android:background="@drawable/botton_list"
+             android:textColor="#FFFFFF" />
+         
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+         <ProgressBar
+             style="?android:attr/progressBarStyleHorizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/progressBar" />
+
+         <TextView
+	         android:id="@+id/SearchNote"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="center"
+	         android:text="" />
+
+     </LinearLayout>
+
+
+    
+</LinearLayout>
+
+<!-- From: file:/D:/GoogleDrive/_APK/LCDW4WiFi/app/src/main/res/layout/activity_list.xml -->

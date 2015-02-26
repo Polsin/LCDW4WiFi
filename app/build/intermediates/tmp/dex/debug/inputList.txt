@@ -1,0 +1,2 @@
+D:\GoogleDrive\_APK\LCDW4WiFi\app\build\intermediates\classes\debug
+D:\GoogleDrive\_APK\LCDW4WiFi\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-3ad48bac53ce9e89d1e80cff28e5496e74a6aee3.jar

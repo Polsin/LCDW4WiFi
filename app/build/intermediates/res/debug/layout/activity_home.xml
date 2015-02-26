@@ -1,0 +1,65 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434343"
+    android:orientation="vertical"
+    tools:context=".HomeActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.52"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/Intro"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical" >
+
+	  	<Button
+	  	android:id="@+id/button1"
+	  	android:layout_width="150dp"
+	  	android:layout_height="wrap_content"
+	  	android:layout_gravity="center"
+	  	android:onClick="press_enter"
+	  	android:background="@drawable/botton_list"
+	  	android:textColor="#FFFFFF"
+	  	android:text="Enter" />  
+     	  
+
+    	 
+     	<Button
+       	android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="press_setting"
+        android:background="@drawable/botton_list"
+        android:textColor="#FFFFFF"
+        android:text="Network config" />
+
+    </LinearLayout>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:text="20/2/2015 : 16.47"
+	    android:textSize="14sp"
+	    android:textColor="#AAAAAA" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="( LAN Only )"
+        android:textColor="#AAAAAA"
+        android:textSize="10sp" />
+
+</LinearLayout><!-- From: file:/D:/GoogleDrive/_APK/LCDW4WiFi/app/src/main/res/layout/activity_home.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:state_pressed="true"
+           android:drawable="@drawable/btn_up_ps" /> <!-- pressed -->
+     <item android:state_focused="true"
+           android:drawable="@drawable/btn_up" /> <!-- focused -->
+     <item android:drawable="@drawable/btn_up" /> <!-- default -->
+ </selector><!-- From: file:/D:/GoogleDrive/_APK/LCDW4WiFi/app/src/main/res/drawable/botton_up.xml -->
